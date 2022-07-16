@@ -22,14 +22,14 @@ input[type="date"]{
     border-radius: 0%;
 }
 
-body {
+.Availability-search {
     background-color:  #F4F4F4;
 }
 
 
 
 @media only screen and (max-width: 375px) {
-    body {
+    .Availability-search {
         background-color: #FFFFFF;
     }
     .date {
@@ -60,7 +60,7 @@ body {
   }
 }
 @media only screen and (width: 425px) {
-    body {
+  .Availability-search {
         background-color: #FFFFFF;
     }
     .date {
@@ -115,7 +115,7 @@ body {
       }
 }
 @media only screen and (min-width: 1024px) {
-    body {
+    .Availability-search {
         background-color: #F4F4F4;
     }
     .room-image {
@@ -139,7 +139,7 @@ body {
     }
 }
 @media only screen and (min-width: 1366px) {
-    body {
+    .Availability-search {
         background-color: #F4F4F4;
     }
     .room-image {
@@ -168,7 +168,7 @@ body {
 }
 
 @media only screen and (min-width: 1440px) {
-    body {
+    .Availability-search {
         background-color: #F4F4F4;
     }
     .room-image {
