@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Experience Life - Make yourself comfortable.">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/availability.css">
+
 
     <title>Kimberly Hotel</title>
     <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
@@ -18,240 +21,245 @@
     <link rel="manifest" href="site.webmanifest">
 </head>
 <body>
-  <div id="Availability-search">
-    <div class="container">
-        <div class="tiltle text-center py-4">
-            <h6>SEARCH FOR AVAILABLE ROOMS</h6>
-        </div>
-        <div class="row date-select align-items-center">
-              <div class="date col-auto mt-3 position-relative">
-                <label for="inputdate" class="form-label fs-input">Check-In</label>
-                <input type="date" id="select" class="form-control text-muted text-uppercase fs-6 fw-lighter  border border-2" aria-describedby="HelpInline">
-              </div>
-              <div class="date col-auto  mt-3 position-relative">
-                <label for="inputdate" class="form-label fs-input">Check-Out</label>
-                <input type="date" id="select" class="form-control text-muted text-uppercase fs-6 fw-lighter  border border-2" aria-describedby="HelpInline">
-              </div>
-              <div class="short-input col-auto mt-5 position-relative">
-                    <p class="fs-form-input mb-2 fs-input">Adults</p>
-                    <select name="select1" id="" class="form-input-one border  border border-2 select-one w-100 fs-form-input py-1 rounded-1">
-                        <option value="" disabled selected></option>
-                        <option value="1">12</option>
-                        <option value="2">13</option>
-                        <option value="3">14</option>
-                        <option value="4">15</option>
-                        <option value="5">16</option>
-                        <option value="6">17</option>
-                        <option value="7">18</option>
-                        <option value="8">17</option>
-                        <option value="9">18</option>
-                        <option value="10">19</option>
-                        <option value="11">20</option>
-                        <option value="12">21+</option>
-                    </select>
-                    <h6 class="fs-form-input">Age: 12+</h6>
+    <header style="background-color: #fff;">
+      <nav class="navbar bg-transparent py-3 py-lg-0">
+        <a href="index.html" class="navbar-brand height-50px md-height-75px ms-3 ms-md-5 ms-lg-4 ms-xl-5">
+            <img src="img/ay-Hotellogo-dg.png" alt="Our Logo" class="h-100 w-100" >
+        </a>
+    </nav>
+    </header>
+      <div id="Availability-search">
+        <div class="container">
+            <div class="tiltle text-center pt-5">
+                <h6>SEARCH FOR AVAILABLE ROOMS</h6>
+            </div>
+            <div class="row date-select align-items-center pt-2">
+                  <div class="date col-auto mt-3 position-relative">
+                    <label for="inputdate" class="form-label fs-input">Check-In</label>
+                    <input type="date" id="select" class="form-control text-muted text-uppercase fs-6 fw-lighter  border border-2" aria-describedby="HelpInline">
+                  </div>
+                  <div class="date col-auto  mt-3 position-relative">
+                    <label for="inputdate" class="form-label fs-input">Check-Out</label>
+                    <input type="date" id="select" class="form-control text-muted text-uppercase fs-6 fw-lighter  border border-2" aria-describedby="HelpInline">
                   </div>
                   <div class="short-input col-auto mt-5 position-relative">
-                    <p class="fs-form-input mb-2 fs-input">Kids</p>
-                    <select name="select2" id="" class="form-input-one border border-2 select-two w-100 fs-form-input py-1 rounded-1">
-                        <option value="" disabled selected></option>
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                    </select>
-                      <h6 class="fs-form-input">Age: 2-11</h6>
+                        <p class="fs-form-input mb-2 fs-input">Adults</p>
+                        <select name="select1" id="" class="form-input-one border  border border-2 select-one w-100 fs-form-input py-1 rounded-1">
+                            <option value="" disabled selected></option>
+                            <option value="1">12</option>
+                            <option value="2">13</option>
+                            <option value="3">14</option>
+                            <option value="4">15</option>
+                            <option value="5">16</option>
+                            <option value="6">17</option>
+                            <option value="7">18</option>
+                            <option value="8">17</option>
+                            <option value="9">18</option>
+                            <option value="10">19</option>
+                            <option value="11">20</option>
+                            <option value="12">21+</option>
+                        </select>
+                        <h6 class="fs-form-input">Age: 12+</h6>
+                      </div>
+                      <div class="short-input col-auto mt-5 position-relative">
+                        <p class="fs-form-input mb-2 fs-input">Kids</p>
+                        <select name="select2" id="" class="form-input-one border border-2 select-two w-100 fs-form-input py-1 rounded-1">
+                            <option value="" disabled selected></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                          <h6 class="fs-form-input">Age: 2-11</h6>
+                      </div>
+                </div>  
+                <div class="search-btn col-xl-10 offset-xl-1 text-lg-center w-100">
+                  <a class="btn text-white btn-md mt-3" href="#" role="link" style="background-color: #AF13AF;">SEARCH</a>
+              </div>
+      <div class="room-section">
+        <div class="container py-5 width-100">
+            <h2>Premium Room</h2>
+            <div class="row pb-4">
+                <div class="room-image col-sm-4">
+                  <div class="card border-0">
+                        <div class="">
+                            <img src="img/Rectangle 33-dg.png" class="img-fluid rounded-0" alt="...">
+                          </div>
                   </div>
-            </div>  
-            <div class="search-btn col-xl-10 offset-xl-1 text-lg-center w-100">
-              <a class="btn text-white btn-md mt-3" href="#" role="link" style="background-color: #AF13AF;">SEARCH</a>
-          </div>
-  <div class="room-section">
-    <div class="container py-5 width-100">
-        <h2>Premium Room</h2>
-        <div class="row pb-4">
-            <div class="room-image col-sm-4">
-              <div class="card border-0">
-                    <div class="">
-                        <img src="img/Rectangle 33-dg.png" class="img-fluid rounded-0" alt="...">
-                      </div>
-              </div>
-            </div>
-            <div class="room-text col-sm-6">
-              <div class="card border-0 rounded-0">
-                <div class="card-body">
-                    <ul class="d-none d-lg-block pt-3">
-                        <li class="py-1 fs-input">Free breakfast</li>
-                        <li class="py-1 fw-bold fs-input">Free Wifi</li>
-                        <li class="py-1 fw-bold fs-input">Mini fridge</li>
-                        <li class="py-1 fw-bold fs-input">Satellite TV</li>
-                        <li class="pt-1 fw-bold fs-input">Air Condition </li>
-                    </ul>
-                    <div class="d-block d-lg-none pt-4">
-                        <p>Free breakfast, Free Wifi, Mini fridge, Satellite, Air condition.</p>
-                    </div>
-                    <div class="book-now d-flex flex-row justify-content-between flex-lg-column align-content-lg-end">
-                    <div class="text col-xl-10 offset-xl-2 text-lg-end">
-                        <h5 class="pe-3">N32,000</h5>
-                    </div>
-                    <div class="purple-btn col-xl-10 offset-xl-2 text-lg-end">
-                        <a class="btn text-white btn-md mt3" href="#" role="link" style="background-color: #AF13AF;">Book Now</a>
-                    </div>
-                    </div>
-                  
                 </div>
-              </div>
-            </div>
-          </div>
-        <div class="row pb-4">
-            <div class="room-image col-sm-4">
-              <div class="card border-0">
-                    <div class="">
-                        <img src="img/Rectangle 34-dg.png" class="img-fluid rounded-0" alt="...">
-                      </div>
-              </div>
-            </div>
-            <div class="room-text col-sm-6">
-              <div class="card border-0 rounded-0">
-                <div class="card-body">
-                    <ul class="d-none d-lg-block pt-3">
-                        <li class="py-1 fs-input">Free breakfast</li>
-                        <li class="py-1 fw-bold fs-input">Free Wifi</li>
-                        <li class="py-1 fw-bold fs-input">Mini fridge</li>
-                        <li class="py-1 fw-bold fs-input">Satellite TV</li>
-                        <li class="py-1 fw-bold fs-input">Air Condition </li>
-                        <li class="pt-1 fw-bold fs-input">Free laptop</li>
-                    </ul>
-                    <div class="d-block d-lg-none pt-4">
-                        <p>Free breakfast, Free Wifi, Mini fridge, Satellite, Air condition, Free laptop.</p>
-                    </div>
-                    <div class="book d-flex flex-row justify-content-between flex-lg-column align-content-lg-end">
+                <div class="room-text col-sm-6">
+                  <div class="card border-0 rounded-0">
+                    <div class="card-body">
+                        <ul class="d-none d-lg-block pt-3">
+                            <li class="py-1 fs-input">Free breakfast</li>
+                            <li class="py-1 fw-bold fs-input">Free Wifi</li>
+                            <li class="py-1 fw-bold fs-input">Mini fridge</li>
+                            <li class="py-1 fw-bold fs-input">Satellite TV</li>
+                            <li class="pt-1 fw-bold fs-input">Air Condition </li>
+                        </ul>
+                        <div class="d-block d-lg-none pt-4">
+                            <p>Free breakfast, Free Wifi, Mini fridge, Satellite, Air condition.</p>
+                        </div>
+                        <div class="book-now d-flex flex-row justify-content-between flex-lg-column align-content-lg-end">
                         <div class="text col-xl-10 offset-xl-2 text-lg-end">
-                            <h5 class="pe-3">N40,000</h5>
+                            <h5 class="pe-3">N32,000</h5>
                         </div>
                         <div class="purple-btn col-xl-10 offset-xl-2 text-lg-end">
                             <a class="btn text-white btn-md mt3" href="#" role="link" style="background-color: #AF13AF;">Book Now</a>
                         </div>
                         </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        <div class="row pb-4">
-            <div class="room-image col-sm-4">
-              <div class="card border-0">
-                    <div class="">
-                        <img src="img/Rectangle 37-dg.png" class="img-fluid rounded-0" alt="...">
-                      </div>
-              </div>
-            </div>
-            <div class="room-text col-sm-6">
-              <div class="card border-0 rounded-0">
-                <div class="card-body">
-                    <ul class="d-none d-lg-block pt-3">
-                        <li class="py-1 fs-input">Free breakfast</li>
-                        <li class="py-1 fw-bold fs-input">Free Wifi</li>
-                        <li class="py-1 fw-bold fs-input">Mini fridge</li>
-                        <li class="py-1 fw-bold fs-input">Satellite TV</li>
-                        <li class="py-1 fw-bold fs-input">Air Condition </li>
-                        <li class="py-1 fw-bold fs-input">Free laptop</li>
-                        <li class="pt-1 fw-bold fs-input">Double bed</li>
-                    </ul>
-                    <div class="d-block d-lg-none pt-4">
-                        <p>Free breakfast, Free Wifi, Mini fridge, Satellite, Air condition, Free laptop, Double bed.</p>
+                      
                     </div>
-                    <div class="book d-flex flex-row justify-content-between flex-lg-column align-content-lg-end">
-                        <div class="text col-xl-10 offset-xl-2 text-lg-end">
-                            <h5 class="pe-3">N50,000</h5>
-                        </div>
-                        <div class="purple-btn col-xl-10 offset-xl-2 text-lg-end">
-                            <a class="btn text-white btn-md mt3" href="#" role="link" style="background-color: #AF13AF;">Book Now</a>
-                        </div>
-                        </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-    </div>
-</div>
-</div>
-
-<footer id="main-footer" class=" bg-neutral-footer text-white mt-3" style="background-color: #393D46;">
-    <div class="container">
-        <div class="row py-5">
-            <div class="col-lg-4 col-md-12 mt-5">
-                <div class="">
-                    <h5 class="fs-footer fw-700 mb-4">Join our Newsletter</h4>
-                    <h6 class="fs-input mb-5">Drop your mail below to get update<br> about us, latest news, tips and more!</h6>
+            <div class="row pb-4">
+                <div class="room-image col-sm-4">
+                  <div class="card border-0">
+                        <div class="">
+                            <img src="img/Rectangle 34-dg.png" class="img-fluid rounded-0" alt="...">
+                          </div>
+                  </div>
                 </div>
-                <form action="" method="post">
-                    <div class="width-80 md-width-50 lg-width-95 xl-width-80 d-flex">
-                        <input type="text" class="form-input-footer box-shad-1 fs-input mb-5 width-85 py-3 px-3" placeholder="Enter your email">
-                        <button type="submit" class="input-button width-15 h-50 fs-input py-3"><i class="fa fa-arrow-right fs-input"></i></button>
+                <div class="room-text col-sm-6">
+                  <div class="card border-0 rounded-0">
+                    <div class="card-body">
+                        <ul class="d-none d-lg-block pt-3">
+                            <li class="py-1 fs-input">Free breakfast</li>
+                            <li class="py-1 fw-bold fs-input">Free Wifi</li>
+                            <li class="py-1 fw-bold fs-input">Mini fridge</li>
+                            <li class="py-1 fw-bold fs-input">Satellite TV</li>
+                            <li class="py-1 fw-bold fs-input">Air Condition </li>
+                            <li class="pt-1 fw-bold fs-input">Free laptop</li>
+                        </ul>
+                        <div class="d-block d-lg-none pt-4">
+                            <p>Free breakfast, Free Wifi, Mini fridge, Satellite, Air condition, Free laptop.</p>
+                        </div>
+                        <div class="book d-flex flex-row justify-content-between flex-lg-column align-content-lg-end">
+                            <div class="text col-xl-10 offset-xl-2 text-lg-end">
+                                <h5 class="pe-3">N40,000</h5>
+                            </div>
+                            <div class="purple-btn col-xl-10 offset-xl-2 text-lg-end">
+                                <a class="btn text-white btn-md mt3" href="#" role="link" style="background-color: #AF13AF;">Book Now</a>
+                            </div>
+                            </div>
                     </div>
-                </form>
-                
-            </div>
-
-            <div class="col-lg-2 col-md-12 mt-5">
-                <h5 class="fs-footer fw-700 mb-4">Hotel Facilities</h5>
-                
-                <h6 class="fs-input mb-3">Restaurants</h6>
-                <h6 class="fs-input mb-3">Rooms and Suites</h6>
-                <h6 class="fs-input mb-3">Events</h6>
-                
-            </div>
-
-            <div class="col-lg-2 col-md-12 mt-5">
-                <h5 class="fs-footer fw-700 mb-4">Company</h5>
-                
-                <h6 class="fs-input mb-2">About us</h6>
-                <h6 class="fs-input mb-2">Blog</h6>
-                <h6 class="fs-input mb-2">Contact us</h6>
-                <h6 class="fs-input mb-4">Services</h6>
-            </div>
-
-            <div class="col-lg-2 col-md-12 mt-5">
-                <h5 class="fs-footer fw-700 mb-4">Support</h5>
-                
-                <h6 class="fs-input mb-2">Support center</h6>
-                <h6 class="fs-input mb-2">FAQ</h6>
-                <h6 class="fs-input mb-2">Privacy Policy</h6>
-                <h6 class="fs-input mb-4">Terms of service</h6>
-            </div>
-
-            <div class="col-lg-2 col-md-12 mt-5">
-                <h5 class="fs-footer fw-700 mb-4">Get in touch</h5>
-                <img src="img/instagram (2)-dg.png" alt="" class="me-4">
-                <img src="img/twitter (4)-dg.png" alt="" class="me-4">
-                <img src="img/facebook (3)-dg.png" alt="" class="">
-                <!-- <i class="fa-brands fa-instagram me-4"></i>
-                <i class="fa-brands fa-twitter me-4"></i>
-                <i class="fa-brands fa-facebook-square"></i> -->
-            </div>
-
+                  </div>
+                </div>
+              </div>
+            <div class="row pb-4">
+                <div class="room-image col-sm-4">
+                  <div class="card border-0">
+                        <div class="">
+                            <img src="img/Rectangle 37-dg.png" class="img-fluid rounded-0" alt="...">
+                          </div>
+                  </div>
+                </div>
+                <div class="room-text col-sm-6">
+                  <div class="card border-0 rounded-0">
+                    <div class="card-body">
+                        <ul class="d-none d-lg-block pt-3">
+                            <li class="py-1 fs-input">Free breakfast</li>
+                            <li class="py-1 fw-bold fs-input">Free Wifi</li>
+                            <li class="py-1 fw-bold fs-input">Mini fridge</li>
+                            <li class="py-1 fw-bold fs-input">Satellite TV</li>
+                            <li class="py-1 fw-bold fs-input">Air Condition </li>
+                            <li class="py-1 fw-bold fs-input">Free laptop</li>
+                            <li class="pt-1 fw-bold fs-input">Double bed</li>
+                        </ul>
+                        <div class="d-block d-lg-none pt-4">
+                            <p>Free breakfast, Free Wifi, Mini fridge, Satellite, Air condition, Free laptop, Double bed.</p>
+                        </div>
+                        <div class="book d-flex flex-row justify-content-between flex-lg-column align-content-lg-end">
+                            <div class="text col-xl-10 offset-xl-2 text-lg-end">
+                                <h5 class="pe-3">N50,000</h5>
+                            </div>
+                            <div class="purple-btn col-xl-10 offset-xl-2 text-lg-end">
+                                <a class="btn text-white btn-md mt3" href="#" role="link" style="background-color: #AF13AF;">Book Now</a>
+                            </div>
+                            </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
-
-       <div class="row">
-            <p class="mb-4  mt-5  text-center fs-copyright">Copyright &copy; 2022 Kodecamp. All Right Reserved</p>
-       </div>
+      </div>
+      </div>
     </div>
-</footer>
+    
+    <footer id="main-footer" class=" bg-neutral-footer text-white">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-lg-4 col-md-12 mt-5">
+                    <div class="">
+                        <h5 class="fs-footer fw-700 mb-4">Join our Newsletter</h4>
+                        <h6 class="fs-input mb-5">Drop your mail below to get update<br> about us, latest news, tips and more!</h6>
+                    </div>
+                    <form id="footer-search-form" action="" method="post">
+                        <div class="width-80 md-width-50 lg-width-95 xl-width-80 d-flex">
+                            <input type="text" id="footer-search-input" class="form-input-footer box-shad-1 fs-input mb-5 width-85 py-3 px-3" placeholder="Enter your email">
+                            <button type="submit" id="footer-search-btn" class="input-button width-15 h-50 fs-input py-3"><i class="fa fa-arrow-right fs-input"></i></button>
+                        </div>
+                    </form>
+                    
+                </div>
 
+                <div class="col-lg-2 col-md-12 mt-5">
+                    <h5 class="fs-footer fw-700 mb-4">Hotel Facilities</h5>
+                    
+                    <a href="restaurants.html" class="text-decoration-none text-white"><h6 class="fs-input mb-3">Restaurants</h6></a>
+                    <a href="rooms.html" class="text-decoration-none text-white"><h6 class="fs-input mb-3">Rooms and Suites</h6></a>
+                    <a href="events.html" class="text-decoration-none text-white"><h6 class="fs-input mb-3">Events</h6></a>
+                    
+                </div>
 
-    <script src="js/bootstrap.min.js"></script>
+                <div class="col-lg-2 col-md-12 mt-5">
+                    <h5 class="fs-footer fw-700 mb-4">Company</h5>
+                    
+                    <a href="about-us.html" class="text-decoration-none text-white"><h6 class="fs-input mb-2">About us</h6></a>
+                    <a href="blog.html" class="text-decoration-none text-white"><h6 class="fs-input mb-2">Blog</h6></a>
+                    <a href="contact-us.html" class="text-decoration-none text-white"><h6 class="fs-input mb-2">Contact us</h6></a>
+                    <a href="services.html" class="text-decoration-none text-white"><h6 class="fs-input mb-4">Services</h6></a>
+                </div>
+
+                <div class="col-lg-2 col-md-12 mt-5">
+                    <h5 class="fs-footer fw-700 mb-4">Support</h5>
+                    
+                    <a href="support-center.html" class="text-decoration-none text-white"><h6 class="fs-input mb-2">Support center</h6></a>
+                    <a href="frequently-asked-questions.html" class="text-decoration-none text-white"><h6 class="fs-input mb-2">FAQ</h6></a>
+                    <a href="privacy-policy.html" class="text-decoration-none text-white"><h6 class="fs-input mb-2">Privacy Policy</h6></a>
+                    <a href="terms-of-service.html" class="text-decoration-none text-white"><h6 class="fs-input mb-4">Terms of service</h6></a>
+                </div>
+
+                <div class="col-lg-2 col-md-12 mt-5">
+                    <h5 class="fs-footer fw-700 mb-4">Get in touch</h5>
+                    <a href="http://www.instagram.com" class="text-decoration-none text-white"><i class="fa-brands fa-instagram me-4 mb-5"></i></a>
+                    <a href="http://www.twitter.com" class="text-decoration-none text-white"><i class="fa-brands fa-twitter me-4"></i></a>
+                    <a href="http://www.facebook.com" class="text-decoration-none text-white"><i class="fa-brands fa-facebook-square"></i></a>
+                </div>
+
+            </div>
+
+           <div class="row">
+                <p class="mb-4  mt-5  text-center fs-copyright">Copyright &copy; 2022 Kodecamp. All Right Reserved</p>
+           </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/aos.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
-    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script> 
-    <script src="js/main.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script> <!-- Please be sure you have this included for admin pages -->
+    <script src="js/main.js"></script>                                          <!-- It's for the icons in the sidenav -->
 
     <script>
         AOS.init();

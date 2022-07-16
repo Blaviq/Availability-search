@@ -73,9 +73,9 @@ body {
     text-align: end;
   }
 
-  .room-image img {
-    /* border-radius: 5px 5px 0 0; */
-  }
+  /* .room-image img {
+    border-radius: 5px 5px 0 0;
+  } */
   .card-body {
     height: 30vh;
     background-color: #F4F4F4;
